@@ -1,0 +1,1 @@
+  imgs = get_cropped_image_if_2_eyes(file_path, image_base64_data)
