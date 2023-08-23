@@ -17,7 +17,6 @@ function init() {
 
   dz.on("complete", function (file) {
     let imageData = file.dataURL;
-
     var url = "http://127.0.0.1:5000/classify_image";
 
     $.post(
@@ -54,6 +53,7 @@ function init() {
                 }
             ]
             */
+          //  class_probablity
         console.log(data);
         if (!data || data.length == 0) {
           $("#resultHolder").hide();
